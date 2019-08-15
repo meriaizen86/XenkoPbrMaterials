@@ -1,0 +1,7 @@
+!Texture
+Id: af4e78ef-b391-4e31-bd00-ee758f7a89d6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/asset/Helmet/ALD_02.tga.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

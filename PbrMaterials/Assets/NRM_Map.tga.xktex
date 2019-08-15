@@ -1,0 +1,6 @@
+!Texture
+Id: 098974b6-5e39-4513-9a28-60c5f7f64080
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/asset/Helmet/NRM_Map.tga.png
+Type: !NormalMapTextureType {}
