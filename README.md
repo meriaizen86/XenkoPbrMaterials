@@ -8,6 +8,8 @@ Copyright (c) <2019> <Óscar Sánchez>
 Sci-Fi Helmet by: Cenobyte
 https://sketchfab.com/3d-models/sci-fi-helmet-57c4e5784952425bbe95e5975bbff694
 
+MIT License:
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
