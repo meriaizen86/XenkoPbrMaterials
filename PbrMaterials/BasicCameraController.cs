@@ -4,6 +4,7 @@ using Xenko.Core.Mathematics;
 using Xenko.Engine;
 using Xenko.Input;
 
+
 namespace PbrMaterials
 {
     /// <summary>
@@ -39,7 +40,7 @@ namespace PbrMaterials
         public override void Start()
         {
             base.Start();
-
+           
             // Default up-direction
             upVector = Vector3.UnitY;
 

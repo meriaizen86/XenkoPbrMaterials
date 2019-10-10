@@ -1,7 +1,0 @@
-!Texture
-Id: 78fb44ad-0cfe-4626-873c-b2ee6a4bbf21
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: !file ../Resources/asset/Helmet/Metalness.tga.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

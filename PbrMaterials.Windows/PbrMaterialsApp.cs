@@ -8,6 +8,7 @@ namespace PbrMaterials.Windows
         {
             using (var game = new Game())
             {
+                game.GraphicsDeviceManager.IsFullScreen = true;
                 game.Run();
             }
         }

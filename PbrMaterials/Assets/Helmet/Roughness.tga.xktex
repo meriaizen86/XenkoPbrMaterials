@@ -2,5 +2,5 @@
 Id: 165bec5b-fcd6-4078-8004-9319c16df555
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: !file ../Resources/asset/Helmet/Roughness.tga.png
+Source: !file ../../Resources/asset/Helmet/Roughness.tga.png
 Type: !GrayscaleTextureType {}

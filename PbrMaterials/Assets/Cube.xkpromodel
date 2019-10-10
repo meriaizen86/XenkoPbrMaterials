@@ -1,10 +1,9 @@
 !ProceduralModelAsset
-Id: afc1833b-913f-403d-8d17-371d25b7db21
+Id: 83a90027-1e9e-4314-95b1-ce76489d9c61
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Type: !PlaneProceduralModel
-    Size: {X: 100.0, Y: 100.0}
-    Tessellation: {X: 100, Y: 100}
+Type: !CubeProceduralModel
+    Size: {X: 1.0, Y: 1.0, Z: 1.0}
     Scale: {X: 1.0, Y: 1.0, Z: 1.0}
     UvScale: {X: 1.0, Y: 1.0}
     LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,7 +1,0 @@
-!Texture
-Id: 84e63ad0-cd0d-4bf6-b8f4-7904b07a4272
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: !file ../Resources/asset/Helmet/Cavity.tga.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

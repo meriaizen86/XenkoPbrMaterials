@@ -5,14 +5,14 @@ Tags: []
 Attributes:
     MicroSurface: !MaterialGlossinessMapFeature
         GlossinessMap: !ComputeFloat
-            Value: 0.65
+            Value: 1.0
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeColor
-            Value: {R: 0.549019635, G: 0.549019635, B: 0.549019635, A: 1.0}
+            Value: {R: 0.85025, G: 0.85025, B: 0.85025, A: 1.0}
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Specular: !MaterialMetalnessMapFeature
         MetalnessMap: !ComputeFloat
-            Value: 1.0
+            Value: 0.916
     SpecularModel: !MaterialSpecularMicrofacetModelFeature
         Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
         Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}

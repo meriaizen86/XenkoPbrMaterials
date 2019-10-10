@@ -1,0 +1,6 @@
+!Texture
+Id: 78fb44ad-0cfe-4626-873c-b2ee6a4bbf21
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/asset/Helmet/Metalness.tga.png
+Type: !GrayscaleTextureType {}

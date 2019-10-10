@@ -2,14 +2,14 @@
 Id: 35a68df4-0e00-41e6-bdd0-e1e95cc98a63
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: !file ../Resources/asset/Helmet/Helmet_02.obj
+Source: !file ../../Resources/asset/Helmet/Helmet_02.obj
 Skeleton: null
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
     d0733591f0f51dc1c5a4ea729efd42f2:
         Name: DefaultMaterial
         MaterialInstance:
-            Material: 3f466628-480e-47f7-af7c-dd66e070389d:DefaultMaterial
+            Material: 3f466628-480e-47f7-af7c-dd66e070389d:Helmet/DefaultMaterial
 Modifiers: {}
 ~SourceHashes:
-    9396412306dd235b9e7723d75136df09~../Resources/asset/Helmet/Helmet_02.obj: 73696e347cd61e27babe65d703308be8
+    84674ddc325d72e515020829b5efdf17~../../Resources/asset/Helmet/Helmet_02.obj: 73696e347cd61e27babe65d703308be8

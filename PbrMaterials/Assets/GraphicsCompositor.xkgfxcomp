@@ -128,7 +128,9 @@ SharedRenderers:
             fc4d1e0de5c2b0bbc27bcf96e9a848fd: ref!! f76f1261-1007-4808-8090-526cfb44d283
         GBufferRenderStage: ref!! 53657c13-fac1-456c-b3d9-c1664a2513bf
         PostEffects: !PostProcessingEffects ref!! 66b6fcad-0ee3-4321-b3ca-b855184eaab0
-        LightShafts: null
+        LightShafts*:
+            LightBufferDownsampleLevel: 2
+            BoundingVolumeBufferDownsampleLevel: 8
         VRSettings:
             Enabled: false
             RequiredApis: {}
@@ -167,14 +169,19 @@ SharedRenderers:
             Enabled*: true
             ResolvePassResolution: Full
             DepthResolution: Half
+            TemporalScale*: 5.5
+            TemporalResponse*: 0.99
         DepthOfField:
             Enabled*: true
-            MaxBokehSize*: 0.01
+            MaxBokehSize*: 0.11
             DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
-            QualityPreset*: 0.9
+            QualityPreset*: 0.4
+            Technique*: HexagonalTripleRhombi
+            AutoFocus*: false
         BrightFilter:
             Color: {R: 1.0, G: 1.0, B: 1.0}
         Bloom:
+            Radius*: 30.0
             Distortion: {X: 1.0, Y: 1.0}
             Afterimage:
                 Enabled: false
@@ -190,7 +197,9 @@ SharedRenderers:
                 e86e22e9a5d65545b8b55fca26e0afee: !Vignetting
                     Enabled: false
                     Color: {R: 0.0, G: 0.0, B: 0.0}
-        Antialiasing*: !FXAAEffect {}
+        Antialiasing*: !FXAAEffect
+            Dither*: None
+            Quality*: 9
     ee80a20a9bd99f2d70711114e15fe7ca: !Xenko.Rendering.Compositing.DebugRenderer,Xenko.Rendering
         Id: b4ef8517-8d62-4be8-908e-3f5d2418d6af
         DebugRenderStages: {}

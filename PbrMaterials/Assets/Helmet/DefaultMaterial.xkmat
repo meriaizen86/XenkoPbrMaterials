@@ -5,35 +5,35 @@ Tags: []
 Attributes:
     Surface: !MaterialNormalMapFeature
         NormalMap: !ComputeTextureColor
-            Texture: 165bec5b-fcd6-4078-8004-9319c16df555:Roughness.tga
+            Texture: 098974b6-5e39-4513-9a28-60c5f7f64080:Helmet/NRM_Map.tga
             FallbackValue:
-                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                Value: {R: 0.5019608, G: 0.5019608, B: 1.0, A: 1.0}
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
         IsXYNormal: true
     MicroSurface: !MaterialGlossinessMapFeature
         GlossinessMap: !ComputeTextureScalar
-            Texture: 098974b6-5e39-4513-9a28-60c5f7f64080:NRM_Map.tga
+            Texture: 78fb44ad-0cfe-4626-873c-b2ee6a4bbf21:Helmet/Metalness.tga
             FallbackValue:
-                Value: 1.0
+                Value: 0.902
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
-        Invert: true
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: af4e78ef-b391-4e31-bd00-ee758f7a89d6:ALD_02.tga
+            Texture: af4e78ef-b391-4e31-bd00-ee758f7a89d6:Helmet/ALD_02.tga
             FallbackValue:
-                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                Value: {R: 0.40441668, G: 0.40441668, B: 0.40441668, A: 1.0}
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Specular: !MaterialMetalnessMapFeature
         MetalnessMap: !ComputeTextureScalar
-            Texture: 78fb44ad-0cfe-4626-873c-b2ee6a4bbf21:Metalness.tga
+            Texture: 78fb44ad-0cfe-4626-873c-b2ee6a4bbf21:Helmet/Metalness.tga
             FallbackValue:
                 Value: 1.0
+            Filtering: Anisotropic
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
     SpecularModel: !MaterialSpecularMicrofacetModelFeature
@@ -43,7 +43,7 @@ Attributes:
         Environment: !MaterialSpecularMicrofacetEnvironmentGGXPolynomial {}
     Occlusion: !MaterialOcclusionMapFeature
         AmbientOcclusionMap: !ComputeTextureScalar
-            Texture: bd301d6e-68f1-4595-8a35-7e19a1394d9a:AO_Map.tga
+            Texture: bd301d6e-68f1-4595-8a35-7e19a1394d9a:Helmet/AO_Map.tga
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
@@ -51,7 +51,7 @@ Attributes:
         DirectLightingFactor: !ComputeFloat
             Value: 1.0
         CavityMap: !ComputeTextureScalar
-            Texture: 84e63ad0-cd0d-4bf6-b8f4-7904b07a4272:Cavity.tga
+            Texture: 84e63ad0-cd0d-4bf6-b8f4-7904b07a4272:Helmet/Cavity.tga
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
@@ -62,7 +62,7 @@ Attributes:
             Value: 1.0
     Emissive: !MaterialEmissiveMapFeature
         EmissiveMap: !ComputeTextureColor
-            Texture: 790180d9-8eca-4383-b47a-2395052607f0:EMS_MAP.tga
+            Texture: 790180d9-8eca-4383-b47a-2395052607f0:Helmet/EMS_MAP.tga
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
             Scale: {X: 1.0, Y: 1.0}
@@ -72,9 +72,9 @@ Attributes:
             Value: 86.0
         UseAlpha: true
     SubsurfaceScattering: !MaterialSubsurfaceScatteringFeature
+        Enabled: false
         Translucency: 0.83
         TranslucencyMap: !ComputeTextureScalar
-            Texture: 165bec5b-fcd6-4078-8004-9319c16df555:Roughness.tga
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
@@ -84,6 +84,15 @@ Attributes:
         KernelFunction: !MaterialSubsurfaceScatteringScatteringKernelSkin
             Falloff: {R: 1.0, G: 0.37, B: 0.3}
             Strength: {R: 0.48, G: 0.41, B: 0.28}
+    Transparency: !MaterialTransparencyCutoffFeature
+        Alpha: !ComputeTextureScalar
+            Texture: af4e78ef-b391-4e31-bd00-ee758f7a89d6:Helmet/ALD_02.tga
+            FallbackValue:
+                Value: 0.951
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
+    CullMode: None
 Layers: {}
