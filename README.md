@@ -2,12 +2,12 @@
 
 
 
-<h1>PBR Xenko Sample
+<h1>PBR Xenko Sample</h1>
   
 A small example of how to use PBR materials in Xenko Game Studio.
 Copyright (c) 2019 Óscar Sánchez
   
-<h1>License
+<h1>License</h1>
 
 Sci-Fi Helmet by: Cenobyte
 https://sketchfab.com/3d-models/sci-fi-helmet-57c4e5784952425bbe95e5975bbff694
