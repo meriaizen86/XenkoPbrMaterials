@@ -1,6 +1,6 @@
 !Texture
 Id: 84e63ad0-cd0d-4bf6-b8f4-7904b07a4272
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../Resources/asset/Helmet/Cavity.tga.png
 Type: !ColorTextureType

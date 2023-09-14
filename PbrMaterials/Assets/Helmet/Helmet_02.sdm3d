@@ -1,6 +1,6 @@
 !Model
 Id: 35a68df4-0e00-41e6-bdd0-e1e95cc98a63
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../Resources/asset/Helmet/Helmet_02.obj
 Skeleton: null

@@ -1,0 +1,801 @@
+!SceneAsset
+Id: 67cec445-21c3-4ec1-8ddf-cf361dc51746
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 84bcda32-e8b9-48b8-84ed-50e7df535eab
+        - ref!! 2d4e0755-f576-48b6-bbb3-2bbd1af266c7
+        - ref!! 8e4f926e-4749-4f3f-bf96-a0443c43890f
+        - ref!! b276e826-5daa-4408-a001-406fc6053289
+        - ref!! 8549ad83-136b-40c3-82e4-e65e95b081ea
+        - ref!! 27ce1196-fa68-4a9e-9c17-d163f02a1bde
+        - ref!! 5be60c2b-43dc-4071-951c-364a18c80271
+        - ref!! ed74bebb-46e0-4a6a-93ba-ab7fb6d545bb
+        - ref!! cc49fd6f-1ec6-413d-b06d-0542a1115797
+    Parts:
+        -   Entity:
+                Id: 00874c81-0dd6-45e5-b70a-81276159f156
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 748c191b-096a-467b-a99e-fc0c3da38138
+                        Position: {X: -5.0, Y: 5.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 06ca8429-d34a-4349-90e7-dd4ff629cccb
+                        Coefficients:
+                            - {R: 0.9205221, G: 1.5072141, B: 2.0984755}
+                            - {R: -0.31139767, G: -0.55148906, B: -0.8891998}
+                            - {R: 0.31174272, G: 0.3697314, B: 0.4276217}
+                            - {R: -0.033139847, G: -0.06251368, B: -0.08328732}
+                            - {R: 0.008076801, G: 0.019343214, B: 0.030632528}
+                            - {R: -0.10487929, G: -0.13761245, B: -0.17941754}
+                            - {R: 0.15703423, G: 0.21617344, B: 0.23255107}
+                            - {R: 0.029735163, G: 0.054832898, B: 0.07266289}
+                            - {R: 0.15192564, G: 0.23431018, B: 0.23373277}
+        -   Entity:
+                Id: 05f98379-7deb-4c1e-8782-9cf729ee5b87
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 12166a1b-82ad-48c6-92f3-3bc616651a63
+                        Position: {X: 0.0, Y: 5.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 43faedaf-e030-4b3f-990e-223822f7813d
+                        Coefficients:
+                            - {R: 0.8970055, G: 1.4506483, B: 2.0107934}
+                            - {R: -0.29952773, G: -0.5196138, B: -0.8319351}
+                            - {R: 0.3712702, G: 0.49937114, B: 0.6185572}
+                            - {R: -0.024586326, G: -0.054583345, B: -0.08028902}
+                            - {R: 0.009605546, G: 0.023160456, B: 0.03969784}
+                            - {R: -0.1292457, G: -0.19526745, B: -0.27946252}
+                            - {R: 0.1353947, G: 0.1729105, B: 0.17259814}
+                            - {R: 0.039639663, G: 0.086850375, B: 0.12615259}
+                            - {R: 0.1629056, G: 0.2558314, B: 0.26460794}
+        -   Entity:
+                Id: 0610b659-9015-4cff-af14-ba0bf0d1bf87
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 8b6b8701-aa9f-4fe5-97c1-3a1561f4624d
+                        Position: {X: 0.0, Y: 5.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 4bfee1cd-302f-4b0b-b53d-fa7675f153ab
+                        Coefficients:
+                            - {R: 0.86660767, G: 1.4322662, B: 2.0112026}
+                            - {R: -0.27931115, G: -0.5073662, B: -0.8311776}
+                            - {R: 0.1580853, G: 0.12992348, B: 0.1331486}
+                            - {R: -0.027355421, G: -0.04525442, B: -0.057031546}
+                            - {R: 0.012282015, G: 0.02022792, B: 0.029263867}
+                            - {R: -0.03841576, G: -0.03427093, B: -0.03585504}
+                            - {R: 0.11948665, G: 0.15904406, B: 0.16457124}
+                            - {R: -0.046766184, G: -0.07691978, B: -0.09565268}
+                            - {R: 0.16830479, G: 0.26215473, B: 0.27120697}
+        -   Entity:
+                Id: 09a10fce-c338-47d2-bbc0-f70f3b35c5db
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: d2aeeaba-65fd-41dd-bdee-0a19bbf53f72
+                        Position: {X: 0.0, Y: 1.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 19053d83-3ba7-45cb-abf9-11ca16e6d6ff
+                        Coefficients:
+                            - {R: 0.95045143, G: 1.547101, B: 2.141108}
+                            - {R: -0.32354048, G: -0.57353014, B: -0.92391646}
+                            - {R: 0.27567598, G: 0.30023742, B: 0.33355474}
+                            - {R: -0.0036087425, G: -0.007417239, B: -0.01045707}
+                            - {R: -0.0015694458, G: -0.003524541, B: -0.0058197533}
+                            - {R: -0.110106036, G: -0.14320558, B: -0.18722011}
+                            - {R: 0.15411846, G: 0.20854856, B: 0.22009206}
+                            - {R: -0.006829051, G: -0.012766304, B: -0.017639786}
+                            - {R: 0.17319328, G: 0.2682478, B: 0.274256}
+        -   Entity:
+                Id: 19bb3f21-d200-48ff-849a-295c1c19e9a7
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 43bd56be-03fc-413f-937c-81246b76e198
+                        Position: {X: -5.0, Y: 8.900407, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: dd69cc8e-1e2f-47d4-b5aa-607ec35e6ce7
+                        Coefficients:
+                            - {R: 0.9405573, G: 1.5394698, B: 2.135942}
+                            - {R: -0.31732205, G: -0.5589213, B: -0.89541376}
+                            - {R: 0.29149958, G: 0.3370323, B: 0.38851327}
+                            - {R: 0.002525439, G: -0.0049145427, B: -0.01470981}
+                            - {R: -0.002082052, G: 0.0059623616, B: 0.016874654}
+                            - {R: -0.09895674, G: -0.12973772, B: -0.17119043}
+                            - {R: 0.15507558, G: 0.21336058, B: 0.22964343}
+                            - {R: -0.0020874587, G: 0.0029206318, B: 0.00975147}
+                            - {R: 0.16542222, G: 0.25737834, B: 0.26290226}
+        -   Entity:
+                Id: 23391f64-ebdf-4500-99b0-157342bc0e30
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: a5c72161-78ef-4244-b0e7-8dd25ea49269
+                        Position: {X: 5.0, Y: 5.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 850ab0dd-f454-4b13-b9ac-8fb5d92a5c45
+                        Coefficients:
+                            - {R: 0.9109518, G: 1.481175, B: 2.0504076}
+                            - {R: -0.3045417, G: -0.53242576, B: -0.8497101}
+                            - {R: 0.28634027, G: 0.3228042, B: 0.36548948}
+                            - {R: 0.05479218, G: 0.11546246, B: 0.17604871}
+                            - {R: -0.02168668, G: -0.05154531, B: -0.09567691}
+                            - {R: -0.09783214, G: -0.12196052, B: -0.15527909}
+                            - {R: 0.16285491, G: 0.22932956, B: 0.2538446}
+                            - {R: 0.01163729, G: 0.020073054, B: 0.025640491}
+                            - {R: 0.14228247, G: 0.21311131, B: 0.20029685}
+        -   Entity:
+                Id: 27ce1196-fa68-4a9e-9c17-d163f02a1bde
+                Name: Helmet_02
+                Components:
+                    af8e5b150c6e5286b641e4f4b55ad0e8: !TransformComponent
+                        Id: 63d7436f-2430-423a-a4e0-327cc3c7474a
+                        Position: {X: 1.3949095E-07, Y: 3.0, Z: 1.5955906}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    5eaaf558c1ed2aabe92718cdca7def46: !ModelComponent
+                        Id: 7579d184-f3ca-419d-a884-8e5948613c08
+                        Model: 35a68df4-0e00-41e6-bdd0-e1e95cc98a63:Helmet/Helmet_02
+                        Materials: {}
+        -   Entity:
+                Id: 2d4e0755-f576-48b6-bbb3-2bbd1af266c7
+                Name: Directional light
+                Components:
+                    ec3a009250a57c85f726e224ee4e8bdc: !TransformComponent
+                        Id: a5f4324c-1c3e-4eed-92ce-88ae5f441b06
+                        Position: {X: 0.0, Y: 7.035639, Z: -14.856821}
+                        Rotation: {X: 0.00063818076, Y: -0.9659229, Z: -0.25881827, W: -0.002381723}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87f43ab701757a68f91f16c87ad77c67: !LightComponent
+                        Id: 55ba286a-d002-4b42-91b2-f9fc9cae5fbe
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.95275, G: 0.033346277, B: 0.033346277}
+                            Radius: 24.0
+                            Shadow:
+                                Enabled: true
+                                Size: Small
+                                BiasParameters:
+                                    DepthBias: 13.01
+                        Intensity: 12.0
+        -   Entity:
+                Id: 2f980805-bfed-4191-a394-eddc177eefb4
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 31e236f4-5904-41c4-b255-47282cdf7b59
+                        Position: {X: 5.0, Y: 8.900407, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 32d4a057-f9e1-4ca0-b868-1ac1edfe774b
+                        Coefficients:
+                            - {R: 0.9481881, G: 1.5431268, B: 2.1360583}
+                            - {R: -0.3292703, G: -0.56332046, B: -0.8915771}
+                            - {R: 0.29327336, G: 0.3341531, B: 0.3793954}
+                            - {R: -0.012780782, G: -0.0013566053, B: 0.010938551}
+                            - {R: 0.016865725, G: 0.0011220706, B: -0.016905574}
+                            - {R: -0.10052298, G: -0.12609787, B: -0.16033913}
+                            - {R: 0.15238756, G: 0.21247636, B: 0.23071195}
+                            - {R: -0.0004405437, G: 0.00022263551, B: 0.0011317817}
+                            - {R: 0.16437738, G: 0.25823915, B: 0.26720908}
+        -   Entity:
+                Id: 405f7e2a-d7c4-4416-b51e-a243bb2cdeda
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 69f7e0aa-986a-4c60-a15d-c7deeea648b6
+                        Position: {X: 0.0, Y: 8.900407, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 6bc6b9b5-8e16-43a4-858c-d8d8b08c2d64
+                        Coefficients:
+                            - {R: 0.9481828, G: 1.5443983, B: 2.139824}
+                            - {R: -0.32954323, G: -0.5651536, B: -0.8969904}
+                            - {R: 0.2814787, G: 0.3319796, B: 0.38653895}
+                            - {R: 0.0037018138, G: 0.0005863999, B: -0.0024476754}
+                            - {R: -0.005136816, G: -0.00081817666, B: 0.0036423767}
+                            - {R: -0.084365316, G: -0.1234288, B: -0.1715532}
+                            - {R: 0.15581568, G: 0.21311007, B: 0.22853366}
+                            - {R: -0.0043937233, G: -0.0011547938, B: 0.0016386204}
+                            - {R: 0.1605668, G: 0.25716454, B: 0.2681048}
+        -   Entity:
+                Id: 46230283-79da-4614-b44e-31c0962e4e9c
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 6887be12-912d-49e2-b2a0-22aa9d42844d
+                        Position: {X: 5.0, Y: 1.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 59cb1575-b824-4e91-90b6-5ecc42fff156
+                        Coefficients:
+                            - {R: 0.9596428, G: 1.5593978, B: 2.1546018}
+                            - {R: -0.31718957, G: -0.56560266, B: -0.9144123}
+                            - {R: 0.29375225, G: 0.32427678, B: 0.3611102}
+                            - {R: 0.002819873, G: 0.010036593, B: 0.016330637}
+                            - {R: -9.04425E-05, G: 0.0022237666, B: 0.006202272}
+                            - {R: -0.10012523, G: -0.12898532, B: -0.16930239}
+                            - {R: 0.15955296, G: 0.21619356, B: 0.2293633}
+                            - {R: 0.005150481, G: 0.01420304, B: 0.02250438}
+                            - {R: 0.1716434, G: 0.26436287, B: 0.26859692}
+        -   Entity:
+                Id: 476c07f6-efee-4cc0-b91c-7cd3efce9daf
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: c4b0cf95-936b-4f21-9444-30f9a00ce1c0
+                        Position: {X: 0.0, Y: 1.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 178bfdf3-65e5-4491-9b14-8d308d8db07b
+                        Coefficients:
+                            - {R: 0.9588039, G: 1.5499858, B: 2.140606}
+                            - {R: -0.31430334, G: -0.56321883, B: -0.9157471}
+                            - {R: 0.30878225, G: 0.3709156, B: 0.43159983}
+                            - {R: -0.004964849, G: -0.013386605, B: -0.018521054}
+                            - {R: 0.0024573242, G: 0.00016144646, B: -0.0033310468}
+                            - {R: -0.10562413, G: -0.1249819, B: -0.14936392}
+                            - {R: 0.15646751, G: 0.20902851, B: 0.2197239}
+                            - {R: 0.010025729, G: 0.023295118, B: 0.031069664}
+                            - {R: 0.16951093, G: 0.26379967, B: 0.2703033}
+        -   Entity:
+                Id: 4ab68e58-5fe3-4afb-82e8-9293b0a396a7
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 5e628c49-0ce8-47ba-8a7f-a962df68d12a
+                        Position: {X: 0.0, Y: 8.900407, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: e90e79e9-8a19-4526-b481-d10497063d9b
+                        Coefficients:
+                            - {R: 0.96041113, G: 1.5489554, B: 2.1410043}
+                            - {R: -0.35670117, G: -0.5749983, B: -0.8981401}
+                            - {R: 0.29426047, G: 0.33445314, B: 0.37910113}
+                            - {R: 0.010926157, G: 0.0028014127, B: -0.0022283294}
+                            - {R: -0.019288005, G: -0.0050897864, B: 0.0035883388}
+                            - {R: -0.102576315, G: -0.12676689, B: -0.15965113}
+                            - {R: 0.14885841, G: 0.2107812, B: 0.22913903}
+                            - {R: 0.00064823194, G: -8.453483E-05, B: -0.00082986994}
+                            - {R: 0.14822161, G: 0.2526588, B: 0.26797223}
+        -   Entity:
+                Id: 569f659f-10f6-476d-a372-4e8e8c059514
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 04f6f62a-f014-4e89-bb20-1985d89b9843
+                        Position: {X: -5.0, Y: 1.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 30000c57-673c-4fd7-9c88-48c2dcc25181
+                        Coefficients:
+                            - {R: 0.9603516, G: 1.5628085, B: 2.160086}
+                            - {R: -0.31665272, G: -0.5647836, B: -0.9119793}
+                            - {R: 0.2962022, G: 0.3307576, B: 0.37132707}
+                            - {R: -0.0016635621, G: -0.0075478987, B: -0.012397862}
+                            - {R: 9.867213E-05, G: -0.0012045094, B: -0.003962095}
+                            - {R: -0.10011207, G: -0.12744597, B: -0.16506673}
+                            - {R: 0.16036615, G: 0.21789542, B: 0.23189898}
+                            - {R: -0.0025778464, G: -0.008493553, B: -0.013867457}
+                            - {R: 0.17210911, G: 0.26448506, B: 0.2684025}
+        -   Entity:
+                Id: 57844fe1-b1fc-47ff-b8de-53ac30f2a20c
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: f143131b-3ac2-47b6-8851-114cd07a6294
+                        Position: {X: -5.0, Y: 1.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: e821d768-6916-4d8f-9633-f45189b29dac
+                        Coefficients:
+                            - {R: 0.96205324, G: 1.5639353, B: 2.1611543}
+                            - {R: -0.316741, G: -0.564413, B: -0.9117308}
+                            - {R: 0.29802027, G: 0.34133732, B: 0.3890948}
+                            - {R: -0.00010009895, G: -0.0071391664, B: -0.012599741}
+                            - {R: 0.0007285543, G: -0.0005955086, B: -0.0038519148}
+                            - {R: -0.10096703, G: -0.12672345, B: -0.16029806}
+                            - {R: 0.1607514, G: 0.21878818, B: 0.23315085}
+                            - {R: 0.00038757612, G: 0.0060046995, B: 0.010848612}
+                            - {R: 0.1722401, G: 0.26399568, B: 0.26761776}
+        -   Folder: null
+            Entity:
+                Id: 5be60c2b-43dc-4071-951c-364a18c80271
+                Name: Light probe
+                Components:
+                    3e9d3d11c31596e80933d2cb1695b3fc: !TransformComponent
+                        Id: aa1d313b-c9c9-4d69-9d6d-4c1561550cc2
+                        Position: {X: -1.78372, Y: 5.0, Z: 1.6070528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 13.467045, Y: 10.64658, Z: 11.345313}
+                        Children: {}
+                    076b754aea48bcc750d3cd0bf6203bac: !LightShaftBoundingVolumeComponent
+                        Id: 456ea6c6-2d2d-4c01-99fe-4e22224f5c71
+                        Model: 83a90027-1e9e-4314-95b1-ce76489d9c61:Cube
+                        LightShaft: ref!! f0c78fec-136b-4461-8abc-f91de417c20f
+        -   Entity:
+                Id: 61322506-7ceb-4aab-b6c3-bef30ca0d460
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 7f2fd5d2-41d9-4221-a557-6ef92aaaa960
+                        Position: {X: 0.0, Y: 1.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 008993e9-9881-487b-9bb2-083e5cb0299b
+                        Coefficients:
+                            - {R: 0.96080035, G: 1.5380176, B: 2.1017215}
+                            - {R: -0.30804932, G: -0.56629235, B: -0.9495768}
+                            - {R: 0.25850618, G: 0.28126505, B: 0.31815836}
+                            - {R: -0.0091760075, G: -0.040507305, B: -0.077794395}
+                            - {R: 0.011466489, G: -0.005362392, B: -0.038804825}
+                            - {R: -0.11412464, G: -0.14289264, B: -0.17758116}
+                            - {R: 0.15714431, G: 0.21482162, B: 0.2321295}
+                            - {R: -0.044673666, G: -0.06436948, B: -0.07570992}
+                            - {R: 0.1658121, G: 0.25687674, B: 0.265516}
+        -   Entity:
+                Id: 65ce680a-4d6f-4191-b0fa-e00a5d42f7ee
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: badd42f9-18b2-400b-ba00-537f218e314b
+                        Position: {X: -5.0, Y: 5.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 7168facc-9445-4c9c-811c-02ff891316bc
+                        Coefficients:
+                            - {R: 0.9186306, G: 1.5053716, B: 2.097668}
+                            - {R: -0.31049463, G: -0.55145127, B: -0.889892}
+                            - {R: 0.26657912, G: 0.28682062, B: 0.3192755}
+                            - {R: -0.03175518, G: -0.058408216, B: -0.075737685}
+                            - {R: 0.008053707, G: 0.017386196, B: 0.026720792}
+                            - {R: -0.093755856, G: -0.11276075, B: -0.14080082}
+                            - {R: 0.15391119, G: 0.21073234, B: 0.22563829}
+                            - {R: -0.037306685, G: -0.06669249, B: -0.08565838}
+                            - {R: 0.15428579, G: 0.23852012, B: 0.23971707}
+        -   Entity:
+                Id: 686efaf2-481a-4ef1-a781-8f281e991543
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: a8f5c616-106f-4fde-b2bd-f550c2949520
+                        Position: {X: -5.0, Y: 1.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 951fbc7e-35b5-4451-bd3d-5a946275ff10
+                        Coefficients:
+                            - {R: 0.96281284, G: 1.5649139, B: 2.1609159}
+                            - {R: -0.31679738, G: -0.56333673, B: -0.9109029}
+                            - {R: 0.2972359, G: 0.33593902, B: 0.38028136}
+                            - {R: 0.00092694827, G: -0.0057848617, B: -0.01383335}
+                            - {R: 0.0013645049, G: 0.0007425471, B: -0.0039452654}
+                            - {R: -0.10045682, G: -0.12703589, B: -0.1626309}
+                            - {R: 0.16041973, G: 0.21896394, B: 0.23430493}
+                            - {R: -0.0010579206, G: -0.0019268325, B: -0.0022456837}
+                            - {R: 0.172383, G: 0.26419535, B: 0.26679903}
+        -   Entity:
+                Id: 6f369a0c-eef4-46b2-950a-601a56d719d9
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 1790274f-93cc-478d-ac5c-2cdb2f65fbeb
+                        Position: {X: -5.0, Y: 5.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 04437a0f-55a9-4d12-8981-c0683fa167d1
+                        Coefficients:
+                            - {R: 0.9199386, G: 1.5050199, B: 2.0932221}
+                            - {R: -0.31038526, G: -0.5489528, B: -0.88417834}
+                            - {R: 0.29087588, G: 0.33082998, B: 0.37605628}
+                            - {R: -0.038738865, G: -0.07478987, B: -0.10406556}
+                            - {R: 0.011197139, G: 0.026103893, B: 0.043131493}
+                            - {R: -0.09967969, G: -0.12550455, B: -0.1604235}
+                            - {R: 0.1611147, G: 0.2240744, B: 0.24380496}
+                            - {R: -0.0039787698, G: -0.006785168, B: -0.008436609}
+                            - {R: 0.14773531, G: 0.22604094, B: 0.22118695}
+        -   Entity:
+                Id: 7ff90510-53fb-4e11-9bc2-939e16288c85
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: be81e480-0785-4555-96c3-171335a3340d
+                        Position: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 49f747fb-3a59-4a2d-93e6-3cf7fce5c5c3
+                        Coefficients:
+                            - {R: 0.9082021, G: 1.4857216, B: 2.0704813}
+                            - {R: -0.30596325, G: -0.5418551, B: -0.8739025}
+                            - {R: 0.24440226, G: 0.24671282, B: 0.26556587}
+                            - {R: 0.037292887, G: 0.06947445, B: 0.09208918}
+                            - {R: -0.011809288, G: -0.0243535, B: -0.038669597}
+                            - {R: -0.0855871, G: -0.09683689, B: -0.1150113}
+                            - {R: 0.14728652, G: 0.19934967, B: 0.21117505}
+                            - {R: 0.053630553, G: 0.09735842, B: 0.12737511}
+                            - {R: 0.15566884, G: 0.24090107, B: 0.24299933}
+        -   Entity:
+                Id: 82b8aa82-b70f-4e97-a894-0881791e96a2
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 83bdb650-8c2c-4339-b8a1-ed4f3cb6ab29
+                        Position: {X: 5.0, Y: 8.900407, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 7a9b8225-995a-4518-a4d1-49e1cfb62e19
+                        Coefficients:
+                            - {R: 0.9441143, G: 1.5415816, B: 2.1369052}
+                            - {R: -0.32200074, G: -0.5605888, B: -0.8938397}
+                            - {R: 0.28779736, G: 0.33556154, B: 0.38922414}
+                            - {R: -0.0058995895, G: 0.0013146646, B: 0.009994198}
+                            - {R: 0.006586399, G: -0.0023418346, B: -0.013606095}
+                            - {R: -0.0941091, G: -0.1281443, B: -0.17331114}
+                            - {R: 0.15502027, G: 0.21311355, B: 0.22915353}
+                            - {R: 0.005796682, G: -0.0002728395, B: -0.0074181124}
+                            - {R: 0.1647883, G: 0.2585053, B: 0.2665474}
+        -   Entity:
+                Id: 84bcda32-e8b9-48b8-84ed-50e7df535eab
+                Name: Camera
+                Components:
+                    7b23e9a06fea7fd47eed85c7ffd81990: !TransformComponent
+                        Id: 252c6df4-dd6e-4d7a-b756-afc5c4253e17
+                        Position: {X: 6.888, Y: 2.398, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1a4745be5c4d2cc36c7001cdfb332fe9: !CameraComponent
+                        Id: 450e4008-084f-4708-92e3-f31322c60af1
+                        Name: null
+                        Projection: Perspective
+                        Slot: 7d82557f-1a50-45bb-a161-2b2633f2d5a2
+                    307980c1574a27e65974dd7dbd432a41: !PbrMaterials.BasicCameraController,PbrMaterials
+                        Id: 1fc17371-3ddd-44bf-8ee1-12200a86dc9a
+                        Gamepad: true
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: 8549ad83-136b-40c3-82e4-e65e95b081ea
+                Name: Ground
+                Components:
+                    80a4ffd4a0262c455cf8cf54b3879ee6: !TransformComponent
+                        Id: 94ced3bc-c600-44aa-8892-5c8ea4606ed7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1000.0, Y: 1000.0, Z: 1009.0}
+                        Children: {}
+                    ebc2c3a1f679d2e7d87228a7be210bb3: !ModelComponent
+                        Id: 0123abc5-ed45-4646-9b2e-cc72c2c4e072
+                        Model: afc1833b-913f-403d-8d17-371d25b7db21:Ground
+                        Materials:
+                            17956d3b1a0f705fb7d404be1a382a53~0: 349d3f40-9bcc-4ebb-873a-11bf931ac805:Ground Mat
+        -   Entity:
+                Id: 878a1178-f6e4-4680-9ab9-bd307c8b1d5b
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: d61254dd-9ebc-49d2-b956-1276e5492f40
+                        Position: {X: 5.0, Y: 1.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 3fbd9fb3-c3ae-43e2-b7ae-625391274f39
+                        Coefficients:
+                            - {R: 0.9621644, G: 1.5604246, B: 2.154892}
+                            - {R: -0.31673864, G: -0.5644407, B: -0.9139579}
+                            - {R: 0.29832345, G: 0.34613004, B: 0.39806706}
+                            - {R: 0.0015385322, G: 0.011542763, B: 0.019463805}
+                            - {R: -0.001597338, G: 0.0009860661, B: 0.0064514237}
+                            - {R: -0.10150751, G: -0.12571427, B: -0.15616764}
+                            - {R: 0.16056612, G: 0.2179119, B: 0.2315869}
+                            - {R: -0.0023644825, G: -0.013019972, B: -0.022161057}
+                            - {R: 0.1711007, G: 0.26261035, B: 0.26635933}
+        -   Entity:
+                Id: 89deb29c-6947-41bb-8947-d8caeca1821f
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 53e0f0ca-e6be-4d27-81d8-20dfed3782b2
+                        Position: {X: -5.0, Y: 8.900407, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 6fd44b74-2bb9-4e9c-aec6-dec00fa60a60
+                        Coefficients:
+                            - {R: 0.94180536, G: 1.5397652, B: 2.134715}
+                            - {R: -0.31883755, G: -0.55884755, B: -0.89267844}
+                            - {R: 0.29286966, G: 0.3339255, B: 0.37952146}
+                            - {R: 0.004908551, G: -0.0046059135, B: -0.01747028}
+                            - {R: -0.004755739, G: 0.006116586, B: 0.021580331}
+                            - {R: -0.100092016, G: -0.12602393, B: -0.16084664}
+                            - {R: 0.154361, G: 0.21361092, B: 0.23130488}
+                            - {R: -6.228593E-05, G: -0.00067099574, B: -0.0014711543}
+                            - {R: 0.16606274, G: 0.2576241, B: 0.26281983}
+        -   Folder: null
+            Entity:
+                Id: 8e4f926e-4749-4f3f-bf96-a0443c43890f
+                Name: Directional light
+                Components:
+                    ec3a009250a57c85f726e224ee4e8bdc: !TransformComponent
+                        Id: 911f2673-e4eb-4445-9564-0cb0ce6d71f4
+                        Position: {X: 11.757436, Y: 7.035639, Z: -14.856821}
+                        Rotation: {X: 0.19021899, Y: -0.6550152, Z: -0.1755108, W: -0.7099068}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87f43ab701757a68f91f16c87ad77c67: !LightComponent
+                        Id: ffbbeed9-6b20-4796-9cc5-2dfbd8b592bf
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.11166678, G: 0.031372566, B: 0.9490196}
+                            Radius: 24.0
+                            Shadow:
+                                Enabled: true
+                                Size: Small
+                                BiasParameters:
+                                    DepthBias: 13.01
+                        Intensity: 12.0
+        -   Entity:
+                Id: 93a553e3-aa76-431d-9ad2-7c9d142c67b3
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 9dcf660b-83cc-406a-b0bb-518b980ce706
+                        Position: {X: 5.0, Y: 5.0, Z: -3.50726}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: c258d555-6bc9-4ce1-a994-0c1e409dfea2
+                        Coefficients:
+                            - {R: 0.911094, G: 1.486607, B: 2.0675194}
+                            - {R: -0.30746683, G: -0.5408751, B: -0.8704526}
+                            - {R: 0.33048508, G: 0.40714052, B: 0.4810024}
+                            - {R: 0.042132217, G: 0.08240146, B: 0.11407459}
+                            - {R: -0.012746045, G: -0.030041367, B: -0.04960341}
+                            - {R: -0.111405864, G: -0.15281896, B: -0.2054398}
+                            - {R: 0.15279077, G: 0.2086238, B: 0.22271961}
+                            - {R: -0.050198957, G: -0.09573921, B: -0.13096994}
+                            - {R: 0.15116712, G: 0.2327502, B: 0.23137856}
+        -   Entity:
+                Id: b276e826-5daa-4408-a001-406fc6053289
+                Name: Skybox
+                Components:
+                    033ddffde2dae0a5d59336eb8991beef: !TransformComponent
+                        Id: ea73af89-ef64-46e0-b103-a1aad32c788b
+                        Position: {X: 0.0, Y: 7.908494, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c062d9f57223d8cca2791417e5ebda4b: !BackgroundComponent
+                        Id: 9a64fafd-867a-451f-a7fd-638a2f431983
+                        Texture: 8f9942ab-1660-40aa-8d0c-3a0f03ff47fb:Skybox texture
+                        Intensity: 0.5
+                    86a43e7e25a26d1d64f792385aa0ecf3: !LightComponent
+                        Id: ae1dc6b3-9059-4f7d-8ffe-b75725edda69
+                        Type: !LightSkybox
+                            Skybox: 6ef7075d-4910-48f9-ac31-659bc28f2281:Skybox
+                        Intensity: 2.5
+        -   Entity:
+                Id: c01b2b26-22a7-4c5d-be9b-4c7ac6aaa95b
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: be9c536a-44cf-41a1-87d3-3a9dcd4ba97e
+                        Position: {X: 0.0, Y: 8.900407, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 015f6743-c997-4acd-a1ac-1a2c935df9cb
+                        Coefficients:
+                            - {R: 0.9360211, G: 1.527877, B: 2.1185532}
+                            - {R: -0.31174764, G: -0.54227287, B: -0.8687024}
+                            - {R: 0.2889745, G: 0.3139032, B: 0.34312284}
+                            - {R: -0.00035243042, G: -0.0044754976, B: -0.008501884}
+                            - {R: 0.00046733883, G: 0.0057576015, B: 0.011047921}
+                            - {R: -0.09502587, G: -0.10018388, B: -0.113201044}
+                            - {R: 0.154793, G: 0.21073543, B: 0.22456841}
+                            - {R: -0.00047742034, G: -0.0056722504, B: -0.01061943}
+                            - {R: 0.16625734, G: 0.2641839, B: 0.27643993}
+        -   Entity:
+                Id: c86dccc2-27bf-46ca-91bb-b830c6371537
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 0daea9ed-81b2-4b03-83a0-7eb5c25bfe2a
+                        Position: {X: 0.0, Y: 5.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 9fb814d2-cbc4-43e8-8626-44df35053169
+                        Coefficients:
+                            - {R: 0.95080686, G: 1.4566498, B: 1.8872361}
+                            - {R: -0.3624647, G: -0.5858157, B: -0.7489827}
+                            - {R: 0.16172126, G: 0.14152917, B: 0.13311124}
+                            - {R: 0.037843674, G: -0.09677457, B: -0.28475034}
+                            - {R: -0.022115493, G: 0.004661862, B: 0.1602566}
+                            - {R: -0.03871357, G: -0.03967717, B: -0.030618507}
+                            - {R: 0.10812434, G: 0.15673265, B: 0.17914721}
+                            - {R: -0.09253598, G: -0.14096126, B: -0.17785776}
+                            - {R: 0.14618036, G: 0.19281198, B: 0.19573973}
+        -   Entity:
+                Id: cc49fd6f-1ec6-413d-b06d-0542a1115797
+                Name: Cube
+                Components:
+                    7a133b2376c28dced988f40bc58c07fd: !TransformComponent
+                        Id: e3630697-be38-447d-9029-a525d5cb4ff8
+                        Position: {X: -4.373634, Y: 3.6759415, Z: -2.0062687}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 8.252717, Y: 7.358041, Z: 3.0916784}
+                        Children: {}
+                    d76f452145ca403fdf8d01b9f9f4efec: !ModelComponent
+                        Id: 721973de-02b5-481a-9b39-de6bed29b042
+                        Model: 83a90027-1e9e-4314-95b1-ce76489d9c61:Cube
+                        Materials: {}
+        -   Entity:
+                Id: d7671d07-3628-4e8c-b715-0e6285a2c9c3
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 2a559516-c9f0-421a-b7a5-174c026117cc
+                        Position: {X: 5.0, Y: 1.0, Z: 0.16856255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: fd90ba8e-5add-4771-92c8-d4aa3e1da4ae
+                        Coefficients:
+                            - {R: 0.9659679, G: 1.5651983, B: 2.157153}
+                            - {R: -0.3142793, G: -0.5603396, B: -0.9129572}
+                            - {R: 0.29579988, G: 0.33334172, B: 0.37730473}
+                            - {R: -0.0029395588, G: 0.0070460825, B: 0.021524029}
+                            - {R: -0.0069597866, G: -0.0046700896, B: 0.007197691}
+                            - {R: -0.10040205, G: -0.12733586, B: -0.16325748}
+                            - {R: 0.15971611, G: 0.21874663, B: 0.23521957}
+                            - {R: 0.0033608293, G: 0.006020337, B: 0.0067550777}
+                            - {R: 0.17120157, G: 0.2620197, B: 0.26335618}
+        -   Folder: Folder
+            Entity:
+                Id: ed74bebb-46e0-4a6a-93ba-ab7fb6d545bb
+                Name: Entity
+                Components:
+                    2e4e55ec97d076bb22a58acb2b2e7c89: !TransformComponent
+                        Id: eb7530c0-29c0-46cd-a48d-af7e76304a24
+                        Position: {X: -1.1096525, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ddf8d9d9784326c29fde4ab5aec440d5: ref!! 83bdb650-8c2c-4339-b8a1-ed4f3cb6ab29
+                            3f2cc6d672333d05007017e904f271c5: ref!! d61254dd-9ebc-49d2-b956-1276e5492f40
+                            c82af40990f67517cb97d54f63f7e9ba: ref!! 9dcf660b-83cc-406a-b0bb-518b980ce706
+                            a4fc4f3a23b654cd7ea3d5de60c749f1: ref!! 67decbc4-55ba-4933-bcf4-d7e8728d07df
+                            e759746bed2c025057d5d1c5c5c1d762: ref!! 6887be12-912d-49e2-b2a0-22aa9d42844d
+                            fe46af484f23798287a52ab8a5e119a8: ref!! be81e480-0785-4555-96c3-171335a3340d
+                            f298613213b01307c51b89cf632ef028: ref!! 31e236f4-5904-41c4-b255-47282cdf7b59
+                            55237a7606358607c6fabf4f41093007: ref!! 2a559516-c9f0-421a-b7a5-174c026117cc
+                            2408700ae317feef652b7196b378a843: ref!! a5c72161-78ef-4244-b0e7-8dd25ea49269
+                            f194f054869eb82034bb1b7ec8dfa9e4: ref!! 69f7e0aa-986a-4c60-a15d-c7deeea648b6
+                            d8af8e7f2aed839cdf3763df673730fb: ref!! c4b0cf95-936b-4f21-9444-30f9a00ce1c0
+                            6a942e3b89d04e215b20698fc4b1f04d: ref!! 12166a1b-82ad-48c6-92f3-3bc616651a63
+                            14e203225dab97275145119740a1460d: ref!! be9c536a-44cf-41a1-87d3-3a9dcd4ba97e
+                            8cab7a19def9ad2a2edd4fab77988351: ref!! d2aeeaba-65fd-41dd-bdee-0a19bbf53f72
+                            7a2b71b797757c84f503509d57b86287: ref!! 8b6b8701-aa9f-4fe5-97c1-3a1561f4624d
+                            598f6a30981232bd6ecf4a5bb0bf1a9f: ref!! 5e628c49-0ce8-47ba-8a7f-a962df68d12a
+                            197ebeed0ce82131186aaaa179f859a2: ref!! 7f2fd5d2-41d9-4221-a557-6ef92aaaa960
+                            adf73336cd52bc9639bfccd1cd9a919c: ref!! 0daea9ed-81b2-4b03-83a0-7eb5c25bfe2a
+                            d849b3898ee68e0ef7087259ddea57f8: ref!! 43bd56be-03fc-413f-937c-81246b76e198
+                            7a39c2281cf2fe8018c19b1c0a303af3: ref!! f143131b-3ac2-47b6-8851-114cd07a6294
+                            00640eb7b619b5d8923ecbdf3e3c6348: ref!! 748c191b-096a-467b-a99e-fc0c3da38138
+                            fddf90277535082761011606a310cecb: ref!! eeaf7ba0-93e3-480e-8737-0b58c5be93a1
+                            65a45895fa6e30c63407c6d6494f7e35: ref!! 04f6f62a-f014-4e89-bb20-1985d89b9843
+                            000300ef4cc4565b5538547de8933f7a: ref!! badd42f9-18b2-400b-ba00-537f218e314b
+                            3f07b5bbd0a66bde217b8d7b43d9650c: ref!! 53e0f0ca-e6be-4d27-81d8-20dfed3782b2
+                            1b6dd3cedd141724a233b7cce16f1f8d: ref!! a8f5c616-106f-4fde-b2bd-f550c2949520
+                            aa08aed8b57a74104231320b7246ef50: ref!! 1790274f-93cc-478d-ac5c-2cdb2f65fbeb
+                    df643e962e69abc4bbf386546a5aa61e: !LightShaftComponent
+                        Id: f0c78fec-136b-4461-8abc-f91de417c20f
+                        DensityFactor: 0.002
+                        SampleCount: 16
+                        SeparateBoundingVolumes: true
+        -   Entity:
+                Id: f30ed5fa-35a0-410a-a976-1b77d4ba1713
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: eeaf7ba0-93e3-480e-8737-0b58c5be93a1
+                        Position: {X: -5.0, Y: 8.900407, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: 4ee7c69b-f994-47c0-a34e-32fc0ad2e38c
+                        Coefficients:
+                            - {R: 0.9388859, G: 1.5359882, B: 2.1304479}
+                            - {R: -0.3152979, G: -0.55547136, B: -0.8903961}
+                            - {R: 0.29304084, G: 0.32711434, B: 0.36378115}
+                            - {R: 0.00019561469, G: -0.009296945, B: -0.020992704}
+                            - {R: 0.00023583874, G: 0.009694198, B: 0.021744972}
+                            - {R: -0.09991044, G: -0.118936054, B: -0.14463386}
+                            - {R: 0.15528895, G: 0.2131209, B: 0.22871792}
+                            - {R: 0.00017415722, G: -0.008645483, B: -0.019910432}
+                            - {R: 0.1652715, G: 0.25697047, B: 0.26240033}
+        -   Entity:
+                Id: f328713b-b4fb-45cd-8d8a-976bbb3ed1c5
+                Name: Light probe
+                Components:
+                    e2e662b2ff6db9a004ea8236abb406c1: !TransformComponent
+                        Id: 67decbc4-55ba-4933-bcf4-d7e8728d07df
+                        Position: {X: 5.0, Y: 8.900407, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bf65da23e38f26cca62245806e06f30: !LightProbeComponent
+                        Id: b5093915-2f70-4270-8f2b-3b794d1dac66
+                        Coefficients:
+                            - {R: 0.94001514, G: 1.5345594, B: 2.1266503}
+                            - {R: -0.31648627, G: -0.5523752, B: -0.8827405}
+                            - {R: 0.2947512, G: 0.32479545, B: 0.35725668}
+                            - {R: -0.0014867245, G: 0.007988801, B: 0.018707864}
+                            - {R: 0.0010785843, G: -0.0097609265, B: -0.022503879}
+                            - {R: -0.101414315, G: -0.11485398, B: -0.13425311}
+                            - {R: 0.15542622, G: 0.21259542, B: 0.22741225}
+                            - {R: -0.001852666, G: 0.008482352, B: 0.020247292}
+                            - {R: 0.16533527, G: 0.25920776, B: 0.26751545}

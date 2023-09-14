@@ -1,6 +1,6 @@
 !Texture
 Id: af4e78ef-b391-4e31-bd00-ee758f7a89d6
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../Resources/asset/Helmet/ALD_02.tga.png
 Type: !ColorTextureType

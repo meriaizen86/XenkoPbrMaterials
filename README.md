@@ -1,10 +1,10 @@
-![Myimage](https://github.com/meriaizen86/XenkoPbrMaterials/blob/master/img/img.png)
+![Myimage](https://github.com/meriaizen86/StridePbrMaterials/blob/master/img/img.png)
 
 
 
-<h1>PBR Xenko Sample</h1>
+<h1>PBR Stride Sample</h1>
   
-A small example of how to use PBR materials in Xenko Game Studio.
+A small example of how to use PBR materials in Stride Game Studio.
 Copyright (c) 2019 Óscar Sánchez
 
 <h2>Sci-Fi Helmet by: Cenobyte</h2>

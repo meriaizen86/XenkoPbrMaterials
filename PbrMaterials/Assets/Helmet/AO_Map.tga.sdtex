@@ -1,6 +1,6 @@
 !Texture
 Id: bd301d6e-68f1-4595-8a35-7e19a1394d9a
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../Resources/asset/Helmet/AO_Map.tga.png
 Type: !GrayscaleTextureType {}

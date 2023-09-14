@@ -1,6 +1,6 @@
 !Texture
 Id: e52c4680-f1bc-4430-a0a4-4c91b7c29d82
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../../Resources/asset/Helmet/Master_PSD_02.tga.png
 Type: !ColorTextureType

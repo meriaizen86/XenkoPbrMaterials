@@ -15,4 +15,4 @@ ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
 RootAssets:
-    - d26edb11-10bd-403c-b3c2-9c7fcccf25e5:XenkoDefaultSplashScreen
+    - d26edb11-10bd-403c-b3c2-9c7fcccf25e5:StrideDefaultSplashScreen
